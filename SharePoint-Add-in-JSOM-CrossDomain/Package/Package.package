@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="081ffeff-dac1-45f9-a9ab-25f62978e867" solutionId="081ffeff-dac1-45f9-a9ab-25f62978e867" resetWebServer="false" sharePointProductVersion="15.0" name="SharePoint-Add-in-JSOM-CrossDomain" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="78e620ab-f40f-4c01-80a5-a471110d5123" />
+  </features>
+</package>

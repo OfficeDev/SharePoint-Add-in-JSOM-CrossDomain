@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Announcements"
+                OnQuickLaunch="TRUE"
+                TemplateType="104"
+                FeatureId="00bfea71-d1ce-42de-9c63-a44004ce0104"
+                Url="Lists/Announcements"
+                Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Great News</Field>
+          <Field Name="Body">I became a grandfather yesterday!</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Version 1 Shipped!</Field>
+          <Field Name="Body">We shipped version 1 to European markets.</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>
