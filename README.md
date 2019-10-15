@@ -11,26 +11,29 @@ extensions:
   - Add-ins
   - OAuth 2.0
   createdDate: 8/12/2015 1:15:58 PM
+description: "Use the SharePoint Cross Domain JavaScript library to access SharePoint data from a remotely hosted web page without the need for OAuth tokens."
 ---
+
 # Access SharePoint data with the Cross Domain JavaScript Library #
 
 ## Summary
+
 Use the SharePoint Cross Domain JavaScript library (CDL) to access SharePoint data from a remotely hosted web page without the need for OAuth tokens.
 
-### Applies to ###
+### Applies to
+
 -  SharePoint Online and on-premise SharePoint 2013 and later 
 
-----------
-## Prerequisites ##
-This sample requires the following:
+## Prerequisites
 
+This sample requires the following:
 
 - A SharePoint 2013 (or later) development environment that is configured for add-in isolation. (A SharePoint Online Developer Site is automatically configured. For an on premise development environment, see [Set up an on-premises development environment for SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp179923.aspx)) 
 
 - Visual Studio and the Office Developer Tools for Visual Studio installed on your developer computer 
 
+## Description of the code
 
-## Description of the code ##
 The sample includes an instance of an Announcements list with two sample announcements in it. The list instance is deployed to the add-in web. When the start page loads, JavaScript in the CrossDomainExec.js file, in the remote domain, makes an AJAX call to SharePoint to get the announcements and displays them on the page. 
 
 The page looks similar to the following.
@@ -41,14 +44,11 @@ The page looks similar to the following.
 
 The sample demonstrates the following:
 
-
 - How to use the key classes of the CDL to make calls from a remotely hosted domain to the SharePoint add-in web domain. 
 
 - How to parse the JSON-formatted data returned from the SharePoint and how to display it dynamically. 
 
-
-
-## To use the sample #
+## To use the sample
 
 12. Open **Visual Studio** as an administrator.
 13. Open the .sln file.
@@ -73,13 +73,8 @@ We'd love to get your feedback on this sample. You can send your questions and s
 - [Creating SharePoint Add-ins that use the cross-domain library](https://msdn.microsoft.com/library/office/dn790708.aspx)
 - [Access SharePoint 2013 data from add-ins using the cross-domain library](https://msdn.microsoft.com/library/office/fp179927.aspx)
 
-### Copyright ###
+### Copyright
 
 Copyright (c) Microsoft. All rights reserved.
-
-
-
-
-
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information, see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
