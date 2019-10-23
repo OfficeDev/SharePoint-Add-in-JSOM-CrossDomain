@@ -14,7 +14,7 @@ extensions:
 description: "Use the SharePoint Cross Domain JavaScript library to access SharePoint data from a remotely hosted web page without the need for OAuth tokens."
 ---
 
-# Access SharePoint data with the Cross Domain JavaScript Library #
+# Access SharePoint data with the Cross Domain JavaScript Library
 
 ## Summary
 
